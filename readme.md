@@ -65,17 +65,12 @@ or:
 
 关机，拔数据线，在维持 **同时按住音量下，电源键，音量上** 的情况下插入数据线即可进入下载
 
-附赠：按键图
-
-![1708767509011](image/README/1708767509011.png)
 
 ### 提取分区（重要：提取完请手动将两个镜像复制一份，防止出意外状况后无法恢复至原来状态）
 
 #### 1.获取最新版本的spd_dump刷机工具
 
-* 访问（待更新链接），这是刷机工具的存放网盘，由[@Tomking062](https://github.com/Tomking062)管理，打开之后，会出现如下界面：
-
-  ![1718709531373](image/README/1718709531373.png)
+* [访问](待更新链接)，这是刷机工具的存放网盘，由[@Tomking062](https://github.com/Tomking062)管理
 * 你应该去下载最上面的**紫光驱动**以及最新版本的**spd_dump_dev**，你或许要问：那哪个是最新版本呢？很简单，找那个**后面跟着的日期最近的**就是，点一下文件名就能下载，另外要说明，你不应当**先安装紫光驱动**，这个驱动应当在你先把**bl正确解了以后**再安装(fastboot的驱动跟这个貌似有点冲突，会获取不到USB设备标识符导致识别不了)。
 * 将紫光驱动解压，然后到**Driver_R4.21.3201\Doc**目录下，下面有一个安装教程，名为**Driver Install and Uninstall Guide V1.2 (CN).pdf**，照着这个自己安装驱动即可
 * 将spd_dump_dev_日期.zip解压，将它里面的SPRD目录单独取出，放在一个你记得住的位置(for example:桌面)，其他的你删了都行。
@@ -229,10 +224,7 @@ adb install 你爱玩机的apk文件
 
 #### 使用爱玩机工具箱备份全分区（救砖可以使用备份的分区
 
-步骤放图片里了，自己看吧
-![1](image/README/1.png)
-![2](image/README/2.png)
-![3](image/README/3.png)
+没图片（
 
 ## 将X3-5G等后续高通机型解bl,Root，开adb
 
@@ -272,15 +264,23 @@ fastboot oem at-unlock-vboot
 
 ### 我咋装软件
 找个Magisk模块安装器不就行了（（（
+
 或者等我们解决打开ADB的问题
 
 # Contributors | 贡献者名单
 [@KawaiiSparkle](https://github.com/KawaiiSparkle)/[@qwqlemon2333](https://github.com/qwqlemon2333)一起编写了伪造apk更新包教程+Root教程
+
 [@KawaiiSparkle](https://github.com/KawaiiSparkle)研究了IFlyOTA，并编写了相关文档
+
 [@Tomking062](https://github.com/Tomking062)提供了Root的思路、spd_dump工具(改进版本)
+
 [@whhh233](https://github.com/whhh233)为我们免费提供了网盘来存放文件
+
 [@WalleoAndrew](https://github.com/WalleoAndrew)最初开始搞科大AI学习机解除安装限制的人
+
 [@YedLeo1](https://github.com/YedLeo1)正在研究T20Pro解锁BL（看样子现在不用了），他编写了T20Pro的DSU食用方法
+
 [@KawaiiSparkle](https://github.com/KawaiiSparkle)/[@LYao2514](https://github.com/LYao2514)创作了一键自动patch系统分区的脚本
+
 [@ig25138](https://github.com/ig25138)负责T30 Pro机型破解
 当然还有ig25138背后的男人：[@misaka_pardola]
