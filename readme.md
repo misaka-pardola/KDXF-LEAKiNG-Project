@@ -62,12 +62,20 @@ T20Pro/T30Pro以及T30Ultra
 
 ## Contributors | 贡献者名单
 
-[@KawaiiSparkle](https://github.com/KawaiiSparkle)/[@qwqlemon2333](https://github.com/qwqlemon2333)/[@WalleoAndrew](https://github.com/WalleoAndrew)一起编写了伪造apk更新包教程+Root教程
-[@Tomking062](https://github.com/Tomking062)提供了Root的思路(system-root for android 9-10)、spd_dump工具(改进版本)
-[@whhh233](https://github.com/whhh233)为我们免费提供了网盘来存放文件，但现已停止运行
-[@WalleoAndrew](https://github.com/WalleoAndrew)最初开始搞科大AI学习机解除安装限制的人：[B站专栏](https://www.bilibili.com/opus/645517873680220178)
-[@YedLeo1](https://github.com/YedLeo1)正在研究T20Pro的，他编写了T20Pro的DSU食用方法
-[@KawaiiSparkle](https://github.com/KawaiiSparkle)/[@LYao2514](https://github.com/LYao2514)创作了一键自动patch系统分区的脚本
-[@ig25138 (或者叫HBO)](https://github.com/ig25138)负责T30Pro机型破解
-[@misaka_pardola](https://github.com/misaka_pardola) ig25138背后的男人:移植了T30Pro可用的TWRP/SHRP和一个实验性质的UEFI镜像（未上机测试，可能会烧主板，需要将镜像刷到uboot分区）
+[@KawaiiSparkle](https://github.com/KawaiiSparkle)/[@qwqlemon2333](https://github.com/qwqlemon2333)/[@WalleoAndrew](https://github.com/WalleoAndrew)一起编写了伪造apk更新包教程+Root教程  
+
+[@Tomking062](https://github.com/Tomking062)提供了Root的思路(system-root for android 9-10)、spd_dump工具(改进版本)  
+
+[@whhh233](https://github.com/whhh233)为我们免费提供了网盘来存放文件，但现已停止运行  
+
+[@WalleoAndrew](https://github.com/WalleoAndrew)最初开始搞科大AI学习机解除安装限制的人：[他的B站专栏](https://www.bilibili.com/opus/645517873680220178)  
+
+[@YedLeo1](https://github.com/YedLeo1)正在研究T20Pro的TWRP/修改super和uboot分区/xrock工具的使用  
+
+[@KawaiiSparkle](https://github.com/KawaiiSparkle)/[@LYao2514](https://github.com/LYao2514)创作了一键自动patch系统分区的脚本  
+
+[@ig25138 (或者叫HBO)](https://github.com/ig25138)负责T30Pro机型破解  
+
+[@misaka_pardola](https://github.com/misaka_pardola) ig25138背后的男人:移植了T30Pro可用的TWRP/SHRP和一个实验性质的UEFI镜像（未上机测试，可能会烧主板，需要将镜像刷到uboot分区）  
+
 [酷安@某贼](http://www.coolapk.com/u/3463951)负责将我们备份好的资源上传到[萤火虫资源站](https://yhcres.top)，让很多人能救砖
