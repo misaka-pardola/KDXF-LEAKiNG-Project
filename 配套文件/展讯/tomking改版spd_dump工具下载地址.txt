@@ -1,0 +1,5 @@
+国内下载：http://qutick102.ysepan.com/
+（每个文件夹里都找一遍看看有没有spd_dump_stable/dev开头的压缩包，有的话那个就是）
+（记得随便下载驱动）
+国外下载（Github自动构建版本）：https://github.com/TomKing062/spreadtrum_flash/releases
+spd_dump工具使用方法（中文）：https://github.com/TomKing062/spreadtrum_flash/blob/main/README_zh.md
