@@ -280,7 +280,7 @@ fastboot oem at-unlock-vboot
 [@Tomking062](https://github.com/Tomking062)提供了Root的思路、spd_dump工具(改进版本)
 [@whhh233](https://github.com/whhh233)为我们免费提供了网盘来存放文件
 [@WalleoAndrew](https://github.com/WalleoAndrew)最初开始搞科大AI学习机解除安装限制的人
-[@YedLeo1](https://github.com/YedLeo1)正在研究T20Pro解锁BL（看样子现在不用了），他编写了T20Pro的DSU食用方法，在[本项目下的t20p.md中](https://github.com/KDXF-BOOM/studentpad-research/blob/main/t20p.md)
+[@YedLeo1](https://github.com/YedLeo1)正在研究T20Pro解锁BL（看样子现在不用了），他编写了T20Pro的DSU食用方法
 [@KawaiiSparkle](https://github.com/KawaiiSparkle)/[@LYao2514](https://github.com/LYao2514)创作了一键自动patch系统分区的脚本
 [@ig25138](https://github.com/ig25138)负责T30 Pro机型破解
 当然还有ig25138背后的男人：[@misaka_pardola]
