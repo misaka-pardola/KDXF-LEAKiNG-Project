@@ -52,14 +52,6 @@ T310机型(ums312):Q10（新构建了fdl1，但未实验得能否使用其进入
 
 Tips:课堂版（学校发的/闲鱼买的非零售版界面版本）请移步[线形团队官网](http://linearteam.top/)获得支持
 
-## 瑞芯微机型破解教程
-
-参照[Rockchip.md](./Rockchip.md)进行
-
-### 适用机型
-
-T20Pro/T30Pro以及T30Ultra
-
 ## Contributors | 贡献者名单
 
 [@KawaiiSparkle](https://github.com/KawaiiSparkle)/[@qwqlemon2333](https://github.com/qwqlemon2333)/[@WalleoAndrew](https://github.com/WalleoAndrew)一起编写了伪造apk更新包教程+Root教程  
@@ -74,8 +66,8 @@ T20Pro/T30Pro以及T30Ultra
 
 [@KawaiiSparkle](https://github.com/KawaiiSparkle)/[@LYao2514](https://github.com/LYao2514)创作了一键自动patch系统分区的脚本  
 
-[@ig25138 (或者叫HBO)](https://github.com/ig25138)负责T30Pro机型破解  
+[@ig25138 (或者叫HBO)](https://github.com/ig25138)负责T30Pro机型破解（当然还没搞出来就对了） 
 
-[@misaka_pardola](https://github.com/misaka_pardola) ig25138背后的男人:移植了T30Pro可用的TWRP/SHRP和一个实验性质的UEFI镜像（未上机测试，可能会烧主板，需要将镜像刷到uboot分区）  
+[@misaka_pardola](https://github.com/misaka_pardola) ig25138背后的男人
 
 [酷安@某贼](http://www.coolapk.com/u/3463951)负责将我们备份好的资源上传到[萤火虫资源站](https://yhcres.top)，让很多人能救砖
