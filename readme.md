@@ -62,7 +62,7 @@ Tips:课堂版（学校发的/闲鱼买的非零售版界面版本）请移步[�
 
 [@WalleoAndrew](https://github.com/WalleoAndrew)最初开始搞科大AI学习机解除安装限制的人：[他的B站专栏](https://www.bilibili.com/opus/645517873680220178)  
 
-[@YedLeo1](https://github.com/YedLeo1)正在研究T20Pro的TWRP/修改super和uboot分区/xrock工具的使用  
+[@YedLeo1](https://github.com/YedLeo1)正在研究T20Pro的破解  
 
 [@KawaiiSparkle](https://github.com/KawaiiSparkle)/[@LYao2514](https://github.com/LYao2514)创作了一键自动patch系统分区的脚本  
 
