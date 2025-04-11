@@ -53,6 +53,14 @@ T310机型(ums312):Q10（新构建了fdl1，但未实验得能否使用其进入
 
 Tips:课堂版因不可抗力因素无法提供支持
 
+## 瑞芯微系列机型破解教程
+
+请参照[rockchip.md内容](./rockchip.md)进行
+
+### 适用机型
+
+T20 Pro，T30 Pro，T30 Ultra（都是停留在理论上）
+
 ## Contributors | 贡献者名单
 
 [@KawaiiSparkle](https://github.com/KawaiiSparkle)/[@qwqlemon2333](https://github.com/qwqlemon2333)/[@WalleoAndrew](https://github.com/WalleoAndrew)一起编写了伪造apk更新包教程+Root教程  
