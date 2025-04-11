@@ -66,7 +66,7 @@ Tips:课堂版（学校发的/闲鱼买的非零售版界面版本）请移步[�
 
 [@KawaiiSparkle](https://github.com/KawaiiSparkle)/[@LYao2514](https://github.com/LYao2514)创作了一键自动patch系统分区的脚本  
 
-[@ig25138 (或者叫HBO)](https://github.com/ig25138)负责T30Pro机型破解（当然还没搞出来就对了） 
+[@ig25138](https://github.com/ig25138)负责T30Pro机型破解（当然还没搞出来就对了） 
 
 [@misaka_pardola](https://github.com/misaka_pardola) ig25138背后的男人
 
