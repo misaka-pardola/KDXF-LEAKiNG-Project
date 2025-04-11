@@ -22,7 +22,7 @@
 
 ### 适用机型
 
-校园版（请移步[线形团队官网](http://linearteam.top/)获得支持）chip0/1-ud710:C6/C8全系机型：
+校园版（因不可抗力因素无法提供支持）：
 
 CB-C6s-STU、CB-C8Air-STU、CB-C8hPro-STU、CB-C8Pro-STU、CB-C8-STU、CB-Q1-ETOrg、CB-C6-STU、ZK-MAN、
 
