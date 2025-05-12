@@ -45,171 +45,58 @@
 
    @永夜—x2向我证明了x2刷入x2pSystem的可能性
 
-   酷安/Bilibili@某贼 帮助我们将一些镜像、文件转存到萤火虫资源站
-
-   致谢部分到此结束
-
-   ---
+   酷安/Bilibili@某贼 帮助我们将一些镜像、文件转存到萤火虫资源站（但在2025.4.15结束了帮助）
 
 # 1.紫光展锐处理器部分机型深刷破解
 
-此破解方法基于将学习机的system分区备份并替换为破解完成或官方解锁之后的system分区以达到删除学习功能并自由安装软件的目的，理论上紫光机型应该能通刷，只不过因为缺少刷机包资源支持，所以基本上只能破解的部分机型如下（若有偏差请指正）
+此破解方法基于将学习机的system分区备份并替换为破解完成或官方解锁之后的system分区以达到删除学习功能并自由安装软件的目的，理论上使用ud710-0芯片的机型应该能通刷
 
-## 1.0该方案适用机型情况
+## 1.0 该方案适用机型情况
 
-* X2/Z1/Q1/X3Pro/C6全系
-* T10/T20/C8全系
-* A10(仅理论)
+* X2/Z1/Q1/X3Pro/老版本课堂版C6/C8
+* T10/T20/课堂版C8全系(理论)
 
-  不能破解的机型
+## 1.1 下载您需要的文件
+* 驱动：在**本教程仓库-配套文件/展讯**下有"紫光驱动_R4.21.3201.zip"，在计算机上下载下来并解压，进入带Win10字样的目录，如果你是Win7/8，请进入带Win78字样的目录，然后点击双击打开DPInst64.exe或者DPInst32.exe（具体看电脑系统位数选32还是64，不会上bing自己搜）并无脑下一步完成安装过程
+* spd_dump（刷机工具）：去[nightly.link](https://nightly.link/TomKing062/spreadtrum_flash/workflows/build/main)下载最新x86的Dev_custdebug版本并**将zip文件解压到桌面或者其他位置的SPRD目录(目录等会要考)**
+* fdl文件：在**本教程仓库-配套文件/展讯/fdls/ud710**中存放了备份，两个文件全部下载下来即可
+* **酷安/Bilibili@某贼**整的半自动化公版Bootloader解锁脚本(windows):在**本教程仓库-配套文件/展讯/**中可以找到`展讯公钥签名解锁BL_by酷安@某贼.zip`的备份，下载下来即可
 
-  任何高通、瑞芯微机型（若您有需要请移步高通机型破解教程，瑞芯微机型目前暂无方案）
+## 1.2 展讯spd_dump工具的使用
 
-  Ud710-chip2/ad机型（缺少fdl文件）
+1.按住音量减(离电源键最远的那个音量键)连接电脑
 
-  T310（ums312）机型（缺少fdl文件）
+设备关机，打开深刷工具spd_dump.exe，在关机之后摁住设备音量减，并将设备插入计算机，如能看到BROM＞字样，可松开按钮，如没有，请重启你的计算机和平板或者尝试在插入计算机前，将设备所有按键(电源+音量加减)按住
 
-  ## 1.1下载您需要的文件
-
-  您需要有一台电脑，并下载几个工具和适合您设备的刷机包
-
-  ### 1.1.1spd深刷驱动以及spd深刷工具的下载
-
-请您去这个网站下载 [网站](qutick102.ysepan.com)!
-
-**并且下载图片内划线的文件**
-
-![](https://www.helloimg.com/i/2025/03/06/67c97f4a53f70.png)
-
-您还需要下载大部分展锐机型的fdl文件
-
-请去群内或者我们的webdav下载
-
-若您确定您有IPv6，那么请您http协议端口6066并匿名登陆即可
-
-![ipv6地址](https://www.helloimg.com/i/2025/03/05/67c78d3444c26.png)
-
-**若您无法确定您有没有ipv6请访问**
-
-![ipv4地址](https://www.helloimg.com/i/2025/03/07/67cafb77cd525.jpg)
-
-![文件位置](https://www.helloimg.com/i/2025/03/05/67c78d37c5f60.png)
-
-![文件地址2](https://www.helloimg.com/i/2025/03/05/67c78d37be949.png)
-
-2．刷机包下载地址 [萤火虫资源站](www.yhcres.top)
-
-![萤火虫资源站](https://www.helloimg.com/i/2025/03/05/67c806c434359.png)
-
-打开网站后，点击“03-学习机、家教机、学生卡、学生平板、儿童手机”按钮，此时会跳转到下一个页面，拉到最底下选择“讯飞”按钮即可**选择您需要刷写的==设备==**
-
-![请您下载划线的文件](https://www.helloimg.com/i/2025/03/05/67c806c1d1f38.png)
-
-例如科大讯飞x2pro，虽然没有，但是他的课堂版（学校特供吃回扣版）也就是C6的官解刷机包是可以通用的(==同样适用于x2==)，如果在未来找不到刷机包可以尝试刷写同芯片机型的刷机包，但是刷机之前一定要备份，下文会讲到，否则等着去找售后修吧！
-
-下到刷机包之后，您应该打开这个文件 ，这个文件一般为.zip格式，请用解压软件将带有system字样的bin文件或img文件解压到一个存储足够大，且足够稳定的存储位置，并记着这个文件存储在哪
-
-![move system.bin to flash](https://www.helloimg.com/i/2025/03/05/67c806c20bb0b.png)
-
-现在您应该打开您刚刚下载的spd_dump_stable.zip和紫光驱动_R4.21.3201.zip
-
-您应该先打开紫光驱动_R4.21.3201.zip并安装驱动
-
-**==请您检查您的计算机的windows系统版本==**，并选择与您对应的驱动（例如windows7就应该选择DriversForWin78）
-
-将与您计算机系统版本对应的文件夹解压到任意文件夹并且打开
-
-![spd driver setup](https://www.helloimg.com/i/2025/03/05/67c806c2eeada.png)
-
-请选择与您计算机cpu位数（x86/x32,x64）所对应的版本，大部分计算机应该选择DPInst64.exe
-
-![spd dump 2](https://www.helloimg.com/i/2025/03/05/67c80cae1a6c7.png)
-
-双击打开DPInst64.exe/ DPInst32.exe（以上文提到的您的计算机的字长为准），一般会弹出安装界面
-
-您只需要一直点击下一步即可
-
-![driver setup 1](https://www.helloimg.com/i/2025/03/05/67c80cad91c5e.png)
-
-![Spd driver 2](https://www.helloimg.com/i/2025/03/05/67c80cadec656.png)
-
-现在您需要解压另外一个文件“spd_dump_stable.zip”
-
-![SPD 1](https://www.helloimg.com/i/2025/03/05/67c80cae0769f.png)
-
-解压完成后点击SPRD文件夹，将您刚刚下载的两个fdl文件挪到这里，并确定这两个文件的名称是fdl1.bin和fdl2.bin
-
-![Fdl move](https://www.helloimg.com/i/2025/03/05/67c80cae61053.png)
-
-## 1.2 spd深刷的备份和刷写
-
-1.按住音量减连接电脑
-
-设备关机，打开深刷工具spd_dump.exe，在关机之后摁住设备音量减，并将设备插入计算机，如能看到如下图BROM＞字样，可松开按钮，如没有，请重启你的计算机和平板或者尝试在插入计算机前，将设备所有按键按住或按住音量加、功能键等。
-
-![into spd on pc](https://www.helloimg.com/i/2025/03/06/67c980dbe224a.png)
-
-2.进入fdl模式命令
-
-在此之前先保证您的设备是Windows10或者Windows7，win11经过@Y2K-x2p的验证usb3成功链接概率很小
-
+2.初始化读写模式(FDL2)模式
+在`BROM>`出现后：
 输入
-
-`fdl fdl1.bin 0x5500`
-
-回车，再输入
-
-`fdl fdl2.bin 0x9efffe00`
-
-您应该会进入这个界面
-
-![in fdl 1](https://www.helloimg.com/i/2025/03/06/67c9832200b5c.png)
-
+`loadfdl 0x5500_ud710`
+回车，如果此时出现什么**usb send failed**那你就可以放弃使用本方法了
+如果没有出现`usb send failed`并正常显示`FDL1>`，请输入
+`loadfdl 0x9efffe00_ud710`
 回车接着输入
-
 `exec`
-
-进入fdl2模式。
-
-请您按照我写出的步骤执行，否则会失败（报错usb send fail），失败后请长摁平板关机键重启平板
-
-若您看到下图界面，则说明您成功进入了fdl模式
-
-![in fdl 2](https://www.helloimg.com/i/2025/03/07/67ca29ff380c0.png)
-
+进入读写模式(显示`FDL2>`)，并会展示分区表方便我们下一步操作.
+3.其他操作
+请前往[spd_dump官方中文版文档](https://github.com/TomKing062/spreadtrum_flash/blob/main/README_zh.md)了解更多
 ## 1.3备份全盘
-
 您先需要备份全盘分区并妥善保存，输入
-
 `r all`
-
 意为读取全盘
-
-即可，如果软件闪退，可以从头再来，在r all时加入目标地址 ，但是不管怎样，文件都会保存SPRD文件夹内（您打开工具的文件夹）
-
-![R system](https://www.helloimg.com/i/2025/03/07/67ca2b72e19a3.png)
-
+如果软件闪退，可以从头再来，在r all时加入目标地址 ，但是不管怎样，文件都会保存SPRD文件夹内
 等文件读取完毕，你应该去把文件妥善保存并记住存储位置
-
-![R system 2](https://www.helloimg.com/i/2025/03/07/67ca2c5f43d00.png)
-
-应该输出类似于此，此为全盘备份图片
-
-## 1.4刷入之前破解好的system.bin
-
-解压之前在萤火虫或者文件站下载的刷机包，记住解压后system.bin文件的路径位置，如：I:\x2pro-system.bin。
-
+## 1.4 刷入预先获得的无限制系统(C6-v99)
+假设你得到的无限制系统文件名为`system_c6_v99.bin`，位于`D:\android\kdxf\`
 在刷机工具spd_dump.exe窗口内输入
 
-`w system I:\x2pro-system.bin`
+`w system D:\android\kdxf\system_c6_v99.bin`
 
 （注意文件名不能有空格）
 
 等待刷写完毕
 
-![flash system](https://www.helloimg.com/i/2025/03/07/67ca2eae3f7e1.png)
-
-等待刷写完成后
+刷写完成后
 
 输入
 
@@ -229,8 +116,6 @@
 
 请使用上文的r system方法将原备份的系统刷回去就行，具体命令是： r system 盘符:您备份的文件地址\文件名。
 
-![Error fix](https://www.helloimg.com/i/2025/03/07/67ca2fc35e7ee.png)
-
 ## c6系统注意事项
 
 请注意，c6包的开发者密码是：IFlyCBaistudy5121
@@ -245,8 +130,6 @@
 
 2.熟练掌握[1.0教程](#1紫光展锐处理器部分机型深刷破解)所有内容，本教程不会顾及你的任何基础
 
-3.本教程修改系统部分需要在Debian上进行
-
 4.[system法root](#22-修改systemvendorroot)与[替换安装器](#23-修改system替换安装器)仅适用于零售版系统
 
 ## 2.1 文件准备
@@ -258,6 +141,7 @@ magisk安装包（26+，官版和Kitsune都行的）
 boot,system,vendor镜像自己想办法得到
 
 ## 2.2 (修改system/vendor)root
+（本方法已因为太过麻烦而且）
 
 linux上挂载system镜像与vendor镜像为**读写**，解压magisk安装包
 
