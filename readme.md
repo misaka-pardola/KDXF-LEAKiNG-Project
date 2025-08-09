@@ -19,7 +19,7 @@
 
 ## 展讯系列机型破解教程
 
-请参照[Unisoc.md内容](./Unisoc.md)进行
+请参照[Unisoc.md内容](./Unisoc ud710.md)进行
 
 ### 适用机型
 
@@ -80,4 +80,5 @@ T20 Pro，T30 Pro，T30 Ultra
 [@misaka_pardola](https://github.com/misaka-pardola) ig25138背后的男人,三人共用一个号(misaka_pardola，misaka_nonami，不愿透露姓名的某人)
 
 [酷安@某贼](http://www.coolapk.com/u/3463951)负责将我们备份好的资源上传到[萤火虫资源站](https://yhcres.top)，让很多人能救砖
+
 
