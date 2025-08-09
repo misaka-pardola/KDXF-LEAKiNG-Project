@@ -4,7 +4,7 @@
 
 * 本团队由原BOOM与LMC团队合并以及加入的DECODE（好吧这个已经死了）的几位大佬形成，皆在解决新版本机型的破解问题(走的是修改系统分区流派)
 * 如果你有兴趣为我们提供思路的话，欢迎开issue or 进我们群（在后面我们也会简述学习机的情况）交流群聊：1027759100（审核群）
-* 我们的所有资源都是免费的，也欢迎给我们为爱发电，研发某些小东西（比如UEFI啥的），如发现没有标识出处乱发布我们团队文件的（致敬某团队传奇成员自己团队的偷了还偷我们的），欢迎举报
+* 我们的所有资源都是免费的，也欢迎给我们为爱发电，研发某些小东西（比如UEFI啥的(hbo我可去你丫的吧 nonami牌病秧子了解下)），如发现没有标识出处乱发布我们团队文件的（致敬某团队传奇成员自己团队的偷了还偷我们的），欢迎举报
 * 欢迎各位大佬（愿意提供研究、开发、测试方面帮助的）来我们团队玩
 * 去他丫的我不管 什么不能给思路，leaking不能公布具体操作关我什么事
 
@@ -19,7 +19,7 @@
 
 ## 展讯系列机型破解教程
 
-请参照[Unisoc.md内容](./Unisoc ud710.md)进行
+请参照[Unisoc.md内容](./Unisoc_ud710.md)进行
 
 ### 适用机型
 
@@ -75,10 +75,11 @@ T20 Pro，T30 Pro，T30 Ultra
 
 [@KawaiiSparkle](https://github.com/KawaiiSparkle)/[@LYao2514](https://github.com/LYao2514)创作了一键自动patch系统分区的脚本  
 
-[@ig25138](https://github.com/ig25138)负责T30Pro机型破解，别信那个没更新的教程，rec都能开机了
+[@ig25138](https://github.com/ig25138)负责T30Pro机型破解，别信那个没更新的教程，rec都能开机了 也叫他hbo，心在远方之类的 名义上leaking群主但是和我以及KawaiiSparkle平级
 
 [@misaka_pardola](https://github.com/misaka-pardola) ig25138背后的男人,三人共用一个号(misaka_pardola，misaka_nonami，不愿透露姓名的某人)
 
 [酷安@某贼](http://www.coolapk.com/u/3463951)负责将我们备份好的资源上传到[萤火虫资源站](https://yhcres.top)，让很多人能救砖
 
+八蓝米科技 提供leaking内部文件站
 
