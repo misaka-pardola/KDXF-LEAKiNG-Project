@@ -308,3 +308,10 @@ ln -s ../../../../lib64/libdefcontainer_jni.so libdefcontainer_jni.so
 这里Magisk修补要用的是 `resign`方法，点击进入再点 `Run Workflow`，把你上传到仓库的压缩包的直链链接获取了复制进去并运行即可在几分钟后该仓库的Releases里面找到它修补并签名好的镜像压缩包 `output.zip`，解压后就能找到修补好的boot镜像并刷入了，教程结束
 
 ## 2.5 (仅修改system) 获得一个精简的类似GSI的system分区
+
+这个我不会找原编写者去
+
+## 3.chip2机型
+切记切记 这个机子除了基于官方魔改的c2通用sgsi，什么gsi都不开机 可参见leaking烈士墙
+由于无法进入fdl1 所以 emmm你只能走fastboot刷入boot和sgsi
+大概的流程是 算了等v3去 leaking找我也行
